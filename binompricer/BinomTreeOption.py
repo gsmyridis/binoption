@@ -54,7 +54,6 @@ class BinomialTreeOption(StockOption):
             if not self.is_european:
                 payoffs = self.check_early_exercise(payoffs, i)
             self.payoff_tree.append(payoffs)
-
         self.payoff_tree = self.payoff_tree[::-1]
         return self.payoff_tree
 
