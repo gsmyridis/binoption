@@ -1,4 +1,4 @@
-# BinomPricer
+# Binomial Pricer
 The package offers the ability to price European and American options as well as futures contracts with a binomial tree. In the current version, only recombining trees are supported.
 
 ## Option Pricing
